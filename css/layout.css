@@ -1,0 +1,290 @@
+html, body, #page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: table;
+}
+
+h3 {
+  font-weight: normal;
+  margin-bottom: 0px;
+  color: white;
+}
+
+#page {
+  display: table-row;
+  font-family: 'Montserrat', serif;
+}
+
+.sidebar, .content {
+  float: left;
+  min-height: 100%;
+}
+
+.sidebar {
+  width: 220px;
+  height: 100%;
+  padding: 25px 0px 25px 25px;
+  background-color: #251740;
+  color: #a09c9c;
+}
+
+.sidebar .top-section {
+  display: inline-block;
+}
+
+.sidebar .top-section .header {
+  display: none;
+}
+
+.sidebar .section {
+  margin-bottom: 30px;
+}
+
+.sidebar .section hr {
+  border-color: white;
+}
+
+.sidebar .section .item {
+  display: inline-block;
+  clear: both;
+  width: 220px;
+  margin: 5px 0px;
+}
+
+.sidebar .section .item a {
+  color: white;
+}
+
+.sidebar .section .item img {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  float: left;
+}
+
+.sidebar .section .item-content {
+  float: left;
+  padding-left: 8px;
+}
+
+.sidebar .section h4 {
+  font-size: 10pt;
+  margin: 0px 0px 3px 0px;
+  color: white;
+}
+
+.sidebar .section span {
+  display: block;
+  font-size: 8pt;
+  color: #dacbcb;
+}
+
+.photo {
+  width: 140px;
+  height: 140px;
+  margin-left: 22px;
+  border: 2px solid #cccccc;
+  border-radius: 70px;
+  background: url('../img/photo.jpg') no-repeat center;
+  background-size: 140px;
+}
+
+.content {
+  padding: 20px 20px 20px 40px;
+  color: #333333;
+}
+
+.content .header {
+  margin-bottom: 0px;
+}
+
+.content .header h1 {
+  margin-bottom: 0px;
+  font-size: 32pt;
+  color: #251740;
+}
+
+.content .header span {
+  margin-bottom: 0px;
+  font-size: 14pt;
+}
+
+.content .section {
+  display: table;
+}
+
+.content .section hr {
+  margin-bottom: 5px;
+  border-color: #cccccc;
+}
+
+.content .section-header img {
+  float: left;
+  height: 32px;
+  margin-right: 15px;
+}
+
+.content .section-header h3 {
+  display: inline-block;
+  margin-top: 5px;
+  color: #251740;
+}
+
+.content .section-header div {
+  margin-left: 47px;
+}
+
+.content .item {
+  display: block;
+  float: left;
+  clear: both;
+  padding-bottom: 10px;
+  background: url('../img/time_line_pattern.png') repeat-y 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+}
+
+.content .item:first-child {
+  padding-top: 10px;
+}
+
+.content .item .timespot {
+  width: 140px;
+  padding: 2px 0px 10px 48px;
+  float: left;
+  background: url(../img/timespot_bullet.png) no-repeat 7px 0px;
+  background-size: 20px;
+}
+
+.content .item:last-child {
+  background: #ffffff;
+}
+
+.content .item .info {
+  max-width: 500px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.content .item .info span {
+  display: block;
+  text-align: justify;
+}
+
+.content .item .info .company {
+  font-weight: bold;
+  color: #251740;
+}
+
+.content .item .info .position {
+  padding-bottom: 5px;
+  font-style: italic;
+}
+
+.content .skills-list {
+  padding-left: 48px;
+  display: inline-block;
+  background: url('../img/time_line_pattern.png') repeat-y 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+}
+
+.content .skills-list .column {
+  float: left;
+  padding-right: 20px;
+}
+
+.content .skills-list .column:last-child {
+  padding-right: 0px;
+}
+
+.content .skill {
+  float: left;
+  clear: both;
+  display: inline-block;
+  padding: 2px 0px;
+}
+
+.content .skill .bar {
+  width: 200px;
+  height: 8px;
+  margin-top: 6px;
+  margin-left: 120px;
+  background: #cccccc;
+}
+
+.content .skill .skill-title {
+  float: left;
+}
+
+.content .skill .score {
+  height: 8px;
+  background: #491C8A;
+}
+
+.description {
+  width: 720px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 36px 0px;
+}
+
+@media (max-width: 1040px) {
+  #info {
+    width: 100%;
+    height: auto;
+  }
+
+  .sidebar {
+    min-height: 300px;
+    height: auto;
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    border-right: 10px solid #491C8A;
+  }
+
+  .sidebar .top-section .header {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .sidebar .top-section div {
+    float: left;
+  }
+
+  .sidebar .section {
+    margin-bottom: 0px;
+  }
+
+  .sidebar .section h3 {
+    margin-top: 5px;
+    color: white;
+  }
+
+  .photo {
+    width: 110px;
+    height: 110px;
+    margin-left: 0px;
+  }
+
+  .content {
+    min-height: auto;
+    padding: 10px;
+  }
+
+  .content .header {
+    display: none;
+  }
+
+  .content .item .timespot {
+    padding-bottom: 0px;
+  }
+
+  .content .item .info {
+    padding-left: 48px;
+  }
+}
