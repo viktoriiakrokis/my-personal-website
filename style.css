@@ -1,0 +1,153 @@
+.big-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Nunito;
+  padding-left: 4px;
+}
+
+.small-container {
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+  align-content: center ;
+}
+
+.component {
+  background-color: white;
+}
+
+.photo {
+  background-image: url('photo.jpg');
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  border-radius: 6px 6px 0px 0px;
+ 
+}
+
+.side-bar {
+  width: 250px;
+  margin-right: 12px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #491C8A;
+}
+
+.column {
+  float: left;
+  padding-right: 20px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill {
+  float: left;
+  clear: both;
+  display: inline-block;
+  padding: 2px 0px;
+}
+
+.bar {
+  width: 200px;
+  height: 8px;
+  margin-top: 6px;
+  margin-left: 120px;
+  background: #cccccc;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+}
+
+.skill-title {
+  float: left;
+}
+
+.score {
+  height: 8px;
+  background: #491C8A;
+  border-radius: 5px;
+}
+
+
+.main-content {
+  width: 800px;
+}
+
+.main-content h1 {
+  color: #491C8A;
+  margin-top:18px;
+  margin-bottom: 0px;
+  font-size: 32px;
+}
+
+.inside-container {
+  padding: 0px 24px;
+}
+
+.h3 {
+  color: #491C8A;
+  font-weight: 800;
+  padding-bottom: 2px;
+}
+
+.place-title {
+  background-color: #491C8A;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 18px;
+  text-align: center;
+  border-bottom: 2px solid #491C8A;
+}
+
+
+.block-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.description {
+  max-width: 550px;
+}
+
+.main-description {
+  margin: 0px;
+}
+
+.h2 {
+  margin-top: 18px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 6px;
+  width: 1020px;
+  height: 58px;
+  padding: 6px 24px;
+  font-size: 14px;
+}
+
+.contact-item {
+ display: flex;
+ padding: 10px;
+}
+
+
+.h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #491C8A;
+}
+
+hr {
+  margin: 18px 0px;
+
+}
