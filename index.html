@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CV-Personal-website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="big-container">
-        <div class="small-container">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CV-Personal-website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="small-container margin-bottom">
             <div class="component side-bar">
                 <div class="photo"></div>
-                <div class="place-title">Helsinki, Finland</div>
                 <div class="contact-item">
-                    <img src="iconfinder_phone8_216688.svg"  style="width: 20px;">
-                    <div class="big-container">
+                    <img class="contact-icon" src="location.png">
+                    <div class="column">
+                        <span><b>Location</b></span>
+                        <span>Helsinki, Finland</span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <img class="contact-icon" src="iconfinder_phone8_216688.svg">
+                    <div class="column">
                         <span><b>Phone</b></span>
                         <span>+358408715874</span>
                     </div>
                 </div>
         
                 <div class="contact-item">
-                    <img src="iconfinder_mail-24_103176.svg"  style="width: 22px;">
-                    <div class="big-container">
+                    <img class="contact-icon" src="iconfinder_mail-24_103176.svg">
+                    <div class="column">
                         <span><b>Email</b></span>
                         <span>vika.krokis063@gmail.com</span>
                     </div>
                 </div>
         
                 <div class="contact-item">
-                    <img src="iconfinder_linkedin_circle_black_107159.svg" style="width: 26px;">
-                    <div class="big-container">
+                    <img class="contact-icon" src="linkedin.png" >
+                    <div class="column">
                         <span><b>LinkedIn</b></span>
                         <a href="https://www.linkedin.com/in/viktoria-krokis-497012130/">linkedin/viktoria-krokis</a>
                     </div>
                 </div>
         
                 <div class="contact-item">
-                    <img src="iconfinder_mark-github_298822.svg"  style="width: 24px; height: 24px; margin-top: 6px;">
-                    <div class="big-container">
+                    <img class="contact-icon" src="iconfinder_mark-github_298822.svg">
+                    <div class="column">
                         <span><b>GitHub</b></span>
                         <a href="https://github.com/viktoriiakrokis">github/viktoria-krokis</a>
                     </div>
@@ -50,101 +56,109 @@
                 <div class="inside-container">
                     <div class="content-item"></div>
                     <div class="h1">VIKTORIIA KROKIS</div>
-                    <h2>STUDENT & SOFTWARE DEVELOPER</h2>
-                    <div class="main-description">I am passion about software development and working towards my specialization in Front-End Web Development. Currently, I am looking for a great project where I can contribute to.</div>
-                    <hr>
-                </div>
-
+                    <h2>FRONT-END DEVELOPER</h2>
                 <div class="content-item">
                     <div class="inside-container">
-                    <div class="h3">SKILLS</div>
-                    <div class="skills-list">
-                        <div class="column">
-                            <div class="skill">
-                                <span class="skill-title">JavaScript / ES6</span>
-                                <div class="bar"><div class="score" style="width: 60%;"></div></div>
+                        <div class="row">
+                            <div class="h3 w-100 border">SKILLS</div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-col column">
+                                <img class="skill-icon" src="icons8-react-40.png">
+                                <div class="text-center">React</div>
                             </div>
-                            <div class="skill">
-                                <span class="skill-title">HTML / CSS</span>
-                                <div class="bar"><div class="score" style="width: 75%;"></div></div>
+                            <div class="skill-col column">
+                                <img class="skill-icon" src="icons8-angularjs-48.png">
+                                <div class="text-center">Angular</div>
                             </div>
-                            <div class="skill">
-                                <span class="skill-title">SQL</span>
-                                <div class="bar"><div class="score" style="width: 30%;"></div></div>
+                            <div class="skill-col column">
+                                <img class="skill-icon" src="icons8-redux-48.png">
+                                <div class="text-center">Redux</div>
                             </div>
-                            <div class="skill">
-                                <span class="skill-title">Git</span>
-                                <div class="bar"><div class="score" style="width: 35%;"></div></div>
+                            <div class="skill-col column">
+                                <img class="skill-icon" src="icons8-typescript-144.png">
+                                <div class="text-center">TypeScript</div>
+                            </div>
+                            <div class="skill-col column">
+                                <img class="skill-icon" src="icons8-javascript-48.png">
+                                <div class="text-center">JavaScript</div>
+                            </div>
+                            <div class="skill-col column">
+                                <img class="skill-icon" src="icons8-git-48.png">
+                                <div class="text-center">Git</div>
                             </div>
                         </div>
-                        <div class="column">
-                            <div class="skill">
-                                <span class="skill-title">React / Redux</span>
-                                <div class="bar"><div class="score" style="width: 50%;"></div></div>
+                        <div class="skills-list"> 
+                            <div class="skill-col column">
+                                <img class="skill-icon" src="file_type_cypress_icon_130654.png">
+                                <div class="text-center">Cypress</div>
                             </div>
-                            <div class="skill">
-                                <span class="skill-title">Algorithms</span>
-                                <div class="bar"><div class="score" style="width: 40%;"></div></div>
+                            <div class="skill-col column">
+                                <img class="skill-icon" src="icons8-selenium-48.png">
+                                <div class="text-center">Selenium</div>
                             </div>
-                            <div class="skill">
-                                <span class="skill-title">Data structures</span>
-                                <div class="bar"><div class="score" style="width: 40%;"></div></div>
+                           
+                            <div class="skill-col column">
+                                <img class="skill-icon" src="icons8-sass-48.png">
+                                <div class="text-center">Sass</div>
+                            </div> 
+                            <div class="skill-col column">
+                                <img class="skill-icon" src="icons8-css3-48.png">
+                                <div class="text-center">Css</div>
                             </div>
-                            <div class="skill">
-                                <span class="skill-title">Java</span>
-                                <div class="bar"><div class="score" style="width: 30%;"></div></div>
-                            </div>
-                        </div> 
-                  </div>
-                  <hr>
-              </div>
-          </div>
-          
-          <div class="inside-container">
-          
-              <div class="h3">EXPERIENCE</div>
-              <div class="block-container">
-                  <div class="info-container">
-                      <div class="info-title"><b>Internship test project</b></div>
-                      <div class="description">Build app which shows list of restaurants from which you can order food. The app provides some additional functionality like sorting and searching restaurants. This software is Single Page Application built in React.</div>
-                  </div>
-                  <div class="date">Jan 2020 - Feb 2020</div>
-              </div>
-
-              <div class="block-container">
-                  <div class="info-container">
-                      <div class="info-title"><b>Students Project</b></div>
-                      <div class="description">I have contributed to development of infographics web service, where I was responsible for implementation of responsive web user interface based on Design Prototype.</div>
-                  </div>
-                  <div class="date">Nov 2018 - Sep 2019</div>
-              </div>
-              <hr>
-          </div>
-              <div class="inside-container">
-                  <div class="h3">EDUCATION</div>
-                  <div class="block-container">
-                      <div class="info-container">
-                          <div class="info-title"><b>Amiedu aikuiskoulutus</b></div>
-                          <div class="description">Tieto- ja viestintätekniikan perustutkinto, Datanomi(PT), Front-end Osaja<br> Studies in Software Development and in particular Front-End Software Development</div>
-                      </div>
-                  <div class="date">2019 - PRESENT</div>
-              </div>
-
-              <div class="block-container">
-                  <div class="info-container">
-                      <div class="info-title"><b>University of Helsinki</b></div>
-                      <div class="description">Course in Open University(MOOC Ohjelmointi perusteet)<br> Introduction to Programming with Java programming language</div>
-                  </div>
-                  <div class="date">2018 - 2019</div>
-              </div>
-
-              <div class="block-container">
-                  <div class="info-container">
-                      <div class="info-title"><b>Other courses</b></div>
-                      <div class="description">FreeCodeCamp: JavaScript Algorithms and Data Structures<br> Codeacademy: JavaScript, React<br> LeetCode: Data Structure, Algorithms</div>
-                  </div>     
+                            <div class="skill-col column">
+                                <img class="skill-icon" src="icons8-html-5-48.png">
+                                <div class="text-center">Html</div>
+                            </div>   
+                            <div class="skill-col column">
+                                <div class="skill-icon">
+                            </div>  
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>  
-</body>
+        
+            <div class="inside-container">
+                <div class="row">
+                    <div class="h3 w-100 border">EXPERIENCE</div>
+                </div>
+                <div class="block-container">
+                    <div class="date">Jun 2020 - Present</div>
+                    <div class="info-container">
+                        <div class="info-title"><b>Software Developer in IWA/Oivan</b></div>
+                        <div class="description">Development of SPA UI for goverment rental agency web service and Slack Bot survey system. Implentation of UI integrations to REST APIs, automated UI tests, code refactoring and responsive design.</br><u>Technologies</u>: Angular, React, Redux, TypesScript, SASS, Selenium.</div>
+                    </div>
+                </div>
+
+                <div class="block-container">
+                    <div class="date">Mar 2020 - Jun 2020</div>
+                    <div class="info-container">
+                        <div class="info-title"><b>Trainee at IWA/Oivan</b></div>
+                        <div class="description">Development of new features for front-end of a real estate retail web service. Refactoring of existing React code base. Interaction with client including collection of requirements, designing pages and demoing results.</br><u>Technologies</u>: React, Redux, JavaScript, SASS.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inside-container">
+                <div class="row">
+                    <div class="h3 w-100 border">EDUCATION</div>
+                </div>
+                <div class="block-container">
+                    <div class="date">Feb 2019 - Mar 2021</div>
+                    <div class="info-container">
+                        <div class="info-title"><b>Amiedu aikuiskoulutus</b></div>
+                        <div class="description">Tieto- ja viestintätekniikan perustutkinto, Datanomi (PT), Front-end Osaja<br> Studies in Software Development and in particular Front-End Software Development
+                        </div>
+                    </div>
+            </div>
+
+            <div class="block-container">
+                <div class="date">2018 - 2019</div>
+                <div class="info-container">
+                    <div class="info-title"><b>University of Helsinki</b></div>
+                    <div class="description">Course in Open University (MOOC Ohjelmointi perusteet)<br> Introduction to Programming with Java programming language</div>
+                </div>
+            </div>
+        </div> 
+    </body>
 </html>
